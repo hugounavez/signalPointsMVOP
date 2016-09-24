@@ -1,0 +1,34 @@
+Fecha y hora: 
+28-5-2016 16:47:22
+Primer Apellido: 
+Reyes
+Segundo Apellido: 
+Amell
+Primer Nombre: 
+Hilary
+Segundo Nombre: 
+Paola
+Número de cédula: 
+26410475
+Edad: 
+17
+Peso: 
+52
+Talla: 
+1.63
+Presión Sistólica: 
+101
+Presión Diastólica: 
+61
+Primer punto de registro de pulso: 
+Carótida
+Segundo punto de registro de pulso: 
+Femoral
+Distancia entre puntos de registro de pulso: 
+0.55
+VOP (Velocidad de onda de pulso): 
+0
+BPM (Latidos por minuto): 
+0
+Diagnóstico clínico: 
+carotida 

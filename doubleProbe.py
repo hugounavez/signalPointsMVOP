@@ -102,6 +102,8 @@ class processDoubleProbe():
         
         self.__vopCalculation(self.ecg.time[self.ecg.pos_ecg_max], self.pulso1.time[self.pulso1.posMax],
                 self.pulso2.time[self.pulso2.posMax])
+
+
         
     def tanAlgorithm(self):
         """Algoritmo de tangente máxima"""
@@ -149,6 +151,8 @@ class processDoubleProbe():
         tt = removeOutliers(self.distancia / np.array(tt), umbral=23)
         tt = list(filter(lambda x: (x > 0) and (x < 50), tt))
         self.vop = tt
+
+
         
 def leerRutasArhivosPierna(path):
     carpetas = glob.glob(path +  "/*")

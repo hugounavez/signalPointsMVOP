@@ -1,0 +1,36 @@
+Fecha y hora: 
+27-12-2015 13:26:17
+Primer Apellido: 
+Reyes
+Segundo Apellido: 
+Amell
+Primer Nombre: 
+Hugo
+Segundo Nombre: 
+David
+Número de cédula: 
+19281929
+Edad: 
+24
+Peso: 
+54
+Talla: 
+1.73
+Presión Sistólica: 
+120
+Presión Diastólica: 
+80
+Primer punto de registro de pulso: 
+Arteria femoral cercano al triangulo de scarpa
+Segundo punto de registro de pulso: 
+Dedo medio pie
+Distancia entre puntos de registro de pulso: 
+0.95
+VOP (Velocidad de onda de pulso): 
+0
+BPM (Latidos por minuto): 
+0
+Diagnóstico clínico: 
+Esta es una de las mediciones realizadas para 
+las evaluaciones de los niveles dispersión
+de resultados en los diferentes algoritmos

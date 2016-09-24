@@ -161,8 +161,6 @@ class EcgProcessing():
                 areas.append(resta)
             else: # Si es negativo:
                 del bajs[x]
-                print (bajs)
-                print (bajs[x])
                 areas.append(bajs[x] - subs[x])
 
 
@@ -235,7 +233,6 @@ class PulseProcessing():
         self.pulso = self.__firFilter(self.pulso, numtaps, cutoff, pass_zero, 1)
     
     def __firFilter(self, signal1, numtaps, cutoff, pass_zero, nyq):
-        print(cutoff)
         ventana = signal.firwin(numtaps=numtaps, cutoff=cutoff, pass_zero=pass_zero, nyq=nyq)
         return window_filtering.Filter(signal1, numtaps, ventana)
     

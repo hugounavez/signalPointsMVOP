@@ -1,0 +1,34 @@
+Fecha y hora: 
+27-12-2015 14:47:22
+Primer Apellido: 
+Amell
+Segundo Apellido: 
+DeReyes
+Primer Nombre: 
+Hilenia
+Segundo Nombre: 
+Ramona
+Número de cédula: 
+7693181
+Edad: 
+51
+Peso: 
+53
+Talla: 
+1.5
+Presión Sistólica: 
+22
+Presión Diastólica: 
+2
+Primer punto de registro de pulso: 
+s
+Segundo punto de registro de pulso: 
+f
+Distancia entre puntos de registro de pulso: 
+0.87
+VOP (Velocidad de onda de pulso): 
+0
+BPM (Latidos por minuto): 
+0
+Diagnóstico clínico: 
+ 
