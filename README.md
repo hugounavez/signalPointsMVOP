@@ -1,4 +1,13 @@
-This repository contains code I did for some parts of my Master Thesis in Biomedical Engineering.
+## Pulse Wave Velocity Library
+
+This repository is a compound of modules I used to process **Arterial Pulse Wave** signals
+and **ECG signals** to calculate the Pulse Wave Velocity in humans.
+
+This project was part of my final work (Master Thesis) in a [Master in Science program
+in Biomedical Engineering](http://www.ing.ula.ve/post.biomedica/) at
+[Universidad of The Andes](http://www.ula.ve/), which was titled **_"Design and implementation of a photopletismographic pulse wave velocity measurement device"_**.
+
+
 
 The library does the reference points identification needed to the PWV calculation.
 
