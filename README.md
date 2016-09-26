@@ -65,6 +65,29 @@ This functions makes a diff operation over the sinal `x(n) = x(n) - x(n - 1)`. A
 This method makes the point identification of local maxima points.
 
 
+On the other hand, In the `doubleProbe.py` file some utility functions can be found. This file has the doubleProbe name because the algoritms were done considering the PVW measurement is made by getting two arterial pulse wave and a ECG signal.
+
+##### `processDoubleProbe(tiempoEcg, ecg, tiempoPulso1, pulso1, tiempoPulso2, pulso2, distancia)`:
+* `Ecg`: list of samples of an ECG signal.
+* `tiempoEcg`: time in which the samples were taken (in seconds)
+* `tiempoPulso1`: time in which the samples of the arterial pulse wave signals were taken.
+* `pulso1`: list of samples of an arterial pulse wave.
+* `tiempoPulso2`: time in which the samples of the arterial pulse wave signals were taken.
+* `pulso2`: list of samples of an arterial pulse wave.
+* `distancia`: Distance between the arterial pulse wave measurement points.
+
+###### `processDoubleProbe.preProcessing(self)`
+This method does the preProcessing of signals.
+
+###### `processDoubleProbe.plotResults(self):`
+This method plots the signals and its identified points. 
+
+##### `processDoubleProbe.maxAlgorithm(self)`:
+This method search the local maxima points in the arterial pulse wave signals.
+#####  `processDoubleProbe.tanAlgorithm(self)`
+This method search the maximal tangent points in the arterial pulse wave signals.
+
+
 ![ECG-Aterial Pulse Wave delay](https://raw.githubusercontent.com/hugounavez/signalPointsMVOP/master/resultsExamples/singleProbeSignalsPointsCarotida.png)
 
 
